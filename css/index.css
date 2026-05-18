@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family:Arial, "helvetica Neue", Helvetica, sans-serif ;
+    background: -o-linear-gradient(0deg, red, blue);
+    text-align: center;
+}
+.h1{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    color: #333;
+}
+.subtitulo{
+    color: #777;
+    margin-bottom: 4vh;
+}
+.opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.cartao{background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    box-shadow: 0 2px 8pxr rgba( 0, 0, 0, 0, 1);
+    transition: border-color 0.2s, transform 0.2s;
+}
+.personagem: :hover{ 
+    
+}
+.personagem img{
+
+}
+.personagem p{
+    margin-top: 1vh;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+.vs{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #aaa;
+    display:flex;
+    align-items: center; 
+}
+#resultados{
+    margin-top: 3vh;
+    display: none;
+}
+#resultado h2{
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 2vh;
+}
